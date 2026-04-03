@@ -37,8 +37,8 @@ export default function Login() {
           <div className="mx-auto mb-3 h-12 w-12 rounded-xl bg-primary flex items-center justify-center">
             <LogIn className="h-6 w-6 text-primary-foreground" />
           </div>
-          <CardTitle className="text-xl">Masuk</CardTitle>
-          <CardDescription>Masuk ke dashboard admin</CardDescription>
+          <CardTitle className="text-xl">Budi Cell💫</CardTitle>
+          <CardDescription>Masuk ke dashboard admin Budi Cell</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
