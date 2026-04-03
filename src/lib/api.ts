@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // Ganti BASE_URL sesuai dengan URL backend Express.js kamu
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 export async function apiRequest<T>(
   endpoint: string,
